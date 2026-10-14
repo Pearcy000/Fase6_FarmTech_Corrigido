@@ -1,0 +1,43 @@
+{
+  "model": "YOLOv5n pretrained COCO, no fine tuning",
+  "images": 8,
+  "confidence_threshold": 0.25,
+  "IoU_threshold": 0.5,
+  "per_class": {
+    "0": {
+      "TP": 5,
+      "FP": 1,
+      "FN": 14,
+      "precision": 0.8333333333333334,
+      "recall": 0.2631578947368421
+    },
+    "1": {
+      "TP": 4,
+      "FP": 2,
+      "FN": 1,
+      "precision": 0.6666666666666666,
+      "recall": 0.8
+    }
+  },
+  "AP50_per_class": {
+    "0": {
+      "class": "bottle",
+      "ground_truth": 19,
+      "detections": 130,
+      "AP50": 0.5492707050120719
+    },
+    "1": {
+      "class": "coffee_cup",
+      "ground_truth": 5,
+      "detections": 51,
+      "AP50": 0.801980198019802
+    }
+  },
+  "mAP50": 0.675625451515937,
+  "macro_precision": 0.75,
+  "macro_recall": 0.531578947368421,
+  "macro_F1": 0.5636363636363636,
+  "latency_ms_mean": 30.65965525001957,
+  "latency_ms_sd": 8.193626412585095,
+  "device": "CPU"
+}

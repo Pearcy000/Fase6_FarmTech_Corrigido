@@ -1,0 +1,113 @@
+[
+  {
+    "model": "COCO pretrained zero-shot",
+    "per_class": {
+      "bottle": {
+        "ground_truth": 19,
+        "TP": 5,
+        "FP": 1,
+        "FN": 14,
+        "precision": 0.8333333333333334,
+        "recall": 0.2631578947368421,
+        "AP50": 0.5492707050120719,
+        "F1": 0.39999999999999997
+      },
+      "coffee_cup": {
+        "ground_truth": 5,
+        "TP": 4,
+        "FP": 2,
+        "FN": 1,
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "AP50": 0.801980198019802,
+        "F1": 0.7272727272727272
+      }
+    },
+    "macro_precision_conf025": 0.75,
+    "macro_recall_conf025": 0.531578947368421,
+    "macro_F1_conf025": 0.5636363636363636,
+    "mAP50_101point": 0.675625451515937,
+    "latency_ms_mean": 22.65621462498757,
+    "latency_ms_sd": 2.062504318653004,
+    "n_images": 8,
+    "conf_threshold_for_PR": 0.25,
+    "IoU_threshold": 0.5,
+    "img_size": 416,
+    "device": "CPU",
+    "correction_note": "F1 macro recalculated from original saved per-class counts; inference and timing not rerun."
+  },
+  {
+    "model": "fine-tuned 30 ep",
+    "per_class": {
+      "bottle": {
+        "ground_truth": 19,
+        "TP": 4,
+        "FP": 8,
+        "FN": 15,
+        "precision": 0.3333333333333333,
+        "recall": 0.21052631578947367,
+        "AP50": 0.28020721070004107,
+        "F1": 0.2580645161290323
+      },
+      "coffee_cup": {
+        "ground_truth": 5,
+        "TP": 5,
+        "FP": 7,
+        "FN": 0,
+        "precision": 0.4166666666666667,
+        "recall": 1.0,
+        "AP50": 0.8217821782178217,
+        "F1": 0.5882352941176471
+      }
+    },
+    "macro_precision_conf025": 0.375,
+    "macro_recall_conf025": 0.6052631578947368,
+    "macro_F1_conf025": 0.4231499051233397,
+    "mAP50_101point": 0.5509946944589315,
+    "latency_ms_mean": 23.50520445836916,
+    "latency_ms_sd": 3.7255216790076853,
+    "n_images": 8,
+    "conf_threshold_for_PR": 0.25,
+    "IoU_threshold": 0.5,
+    "img_size": 416,
+    "device": "CPU",
+    "correction_note": "F1 macro recalculated from original saved per-class counts; inference and timing not rerun."
+  },
+  {
+    "model": "fine-tuned 60 ep",
+    "per_class": {
+      "bottle": {
+        "ground_truth": 19,
+        "TP": 4,
+        "FP": 1,
+        "FN": 15,
+        "precision": 0.8,
+        "recall": 0.21052631578947367,
+        "AP50": 0.37999234054117204,
+        "F1": 0.3333333333333333
+      },
+      "coffee_cup": {
+        "ground_truth": 5,
+        "TP": 5,
+        "FP": 3,
+        "FN": 0,
+        "precision": 0.625,
+        "recall": 1.0,
+        "AP50": 0.933993399339934,
+        "F1": 0.7692307692307693
+      }
+    },
+    "macro_precision_conf025": 0.7125,
+    "macro_recall_conf025": 0.6052631578947368,
+    "macro_F1_conf025": 0.5512820512820513,
+    "mAP50_101point": 0.656992869940553,
+    "latency_ms_mean": 20.117754458359133,
+    "latency_ms_sd": 1.7033076843157244,
+    "n_images": 8,
+    "conf_threshold_for_PR": 0.25,
+    "IoU_threshold": 0.5,
+    "img_size": 416,
+    "device": "CPU",
+    "correction_note": "F1 macro recalculated from original saved per-class counts; inference and timing not rerun."
+  }
+]
