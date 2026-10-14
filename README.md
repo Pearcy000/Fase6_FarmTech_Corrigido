@@ -6,7 +6,15 @@ Este README introduz o projeto e orienta o acesso à solução. O passo a passo,
 
 ## Identificação
 
-- **Grupo e integrantes (nome completo e RM):** aguardando identificação.
+- **Grupo:** nome ainda não informado.
+
+| Integrante | RM |
+|---|---|
+| Camila | 569629 |
+| João | 571052 |
+| Gabriel | 569179 |
+
+Os nomes acima foram informados pelos integrantes; faltam os sobrenomes para atender à exigência de nomes completos.
 - **Repositório público:** [Fase6_FarmTech_Corrigido](https://github.com/Pearcy000/Fase6_FarmTech_Corrigido).
 
 O enunciado solicita o nome do grupo no repositório e o padrão `NomeCompleto_rmXXXXX_pbl_fase6.ipynb` no notebook principal. Esses nomes precisam ser ajustados após a identificação dos integrantes.
