@@ -1,0 +1,5 @@
+__pycache__/
+*.cache
+yolov5/
+execucoes_novas/
+.venv/
