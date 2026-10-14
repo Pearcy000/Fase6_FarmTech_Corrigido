@@ -1,0 +1,119 @@
+YOLOv5 🚀 v7.0-556-gf9578796 Python-3.12.3 torch-2.14.1+cpu CPU
+
+Fusing layers... 
+YOLOv5n summary: 124 layers, 1,867,405 parameters, 0 gradients, 4.5 GFLOPs
+Adding AutoShape... 
+YOLOv5 🚀 v7.0-556-gf9578796 Python-3.12.3 torch-2.14.1+cpu CPU
+
+Fusing layers... 
+Model summary: 68 layers, 1,761,871 parameters, 0 gradients, 4.1 GFLOPs
+Adding AutoShape... 
+YOLOv5 🚀 v7.0-556-gf9578796 Python-3.12.3 torch-2.14.1+cpu CPU
+
+Fusing layers... 
+Model summary: 68 layers, 1,761,871 parameters, 0 gradients, 4.1 GFLOPs
+Adding AutoShape... 
+[
+  {
+    "model": "COCO pretrained zero-shot",
+    "per_class": {
+      "bottle": {
+        "ground_truth": 19,
+        "TP": 5,
+        "FP": 1,
+        "FN": 14,
+        "precision": 0.8333333333333334,
+        "recall": 0.2631578947368421,
+        "AP50": 0.5492707050120719
+      },
+      "coffee_cup": {
+        "ground_truth": 5,
+        "TP": 4,
+        "FP": 2,
+        "FN": 1,
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "AP50": 0.801980198019802
+      }
+    },
+    "macro_precision_conf025": 0.75,
+    "macro_recall_conf025": 0.531578947368421,
+    "macro_F1_conf025": 0.6221765913757699,
+    "mAP50_101point": 0.675625451515937,
+    "latency_ms_mean": 22.65621462498757,
+    "latency_ms_sd": 2.062504318653004,
+    "n_images": 8,
+    "conf_threshold_for_PR": 0.25,
+    "IoU_threshold": 0.5,
+    "img_size": 416,
+    "device": "CPU"
+  },
+  {
+    "model": "fine-tuned 30 ep",
+    "per_class": {
+      "bottle": {
+        "ground_truth": 19,
+        "TP": 4,
+        "FP": 8,
+        "FN": 15,
+        "precision": 0.3333333333333333,
+        "recall": 0.21052631578947367,
+        "AP50": 0.28020721070004107
+      },
+      "coffee_cup": {
+        "ground_truth": 5,
+        "TP": 5,
+        "FP": 7,
+        "FN": 0,
+        "precision": 0.4166666666666667,
+        "recall": 1.0,
+        "AP50": 0.8217821782178217
+      }
+    },
+    "macro_precision_conf025": 0.375,
+    "macro_recall_conf025": 0.6052631578947368,
+    "macro_F1_conf025": 0.4630872483221477,
+    "mAP50_101point": 0.5509946944589315,
+    "latency_ms_mean": 23.50520445836916,
+    "latency_ms_sd": 3.7255216790076853,
+    "n_images": 8,
+    "conf_threshold_for_PR": 0.25,
+    "IoU_threshold": 0.5,
+    "img_size": 416,
+    "device": "CPU"
+  },
+  {
+    "model": "fine-tuned 60 ep",
+    "per_class": {
+      "bottle": {
+        "ground_truth": 19,
+        "TP": 4,
+        "FP": 1,
+        "FN": 15,
+        "precision": 0.8,
+        "recall": 0.21052631578947367,
+        "AP50": 0.37999234054117204
+      },
+      "coffee_cup": {
+        "ground_truth": 5,
+        "TP": 5,
+        "FP": 3,
+        "FN": 0,
+        "precision": 0.625,
+        "recall": 1.0,
+        "AP50": 0.933993399339934
+      }
+    },
+    "macro_precision_conf025": 0.7125,
+    "macro_recall_conf025": 0.6052631578947368,
+    "macro_F1_conf025": 0.654518222666001,
+    "mAP50_101point": 0.656992869940553,
+    "latency_ms_mean": 20.117754458359133,
+    "latency_ms_sd": 1.7033076843157244,
+    "n_images": 8,
+    "conf_threshold_for_PR": 0.25,
+    "IoU_threshold": 0.5,
+    "img_size": 416,
+    "device": "CPU"
+  }
+]

@@ -1,0 +1,7 @@
+# Portable reference; the notebook writes an absolute runtime path.
+path: .
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names: ['bottle', 'coffee_cup']

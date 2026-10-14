@@ -1,0 +1,8 @@
+{
+  "mean_ms_image": 6.4246155500200075,
+  "sd_ms": 0.6673199665665474,
+  "samples": 40,
+  "input_size": 128,
+  "device": "CPU",
+  "includes": "file read, resize, tensor conversion, normalization, forward"
+}

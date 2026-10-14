@@ -1,0 +1,12 @@
+[34m[1mval: [0mdata=/home/ubuntu/work/openimages/dataset/dataset.yaml, weights=['/home/ubuntu/work/openimages/runs/yolo_n_60ep/weights/best.pt'], batch_size=8, imgsz=416, conf_thres=0.001, iou_thres=0.6, max_det=300, task=test, device=cpu, workers=2, single_cls=False, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=False, project=/home/ubuntu/work/openimages/test_runs, name=custom60, exist_ok=True, half=False, dnn=False
+YOLOv5 🚀 v7.0-556-gf9578796 Python-3.12.3 torch-2.14.1+cpu CPU
+
+Fusing layers... 
+Model summary: 68 layers, 1,761,871 parameters, 0 gradients, 4.1 GFLOPs
+[34m[1mtest: [0mScanning /home/ubuntu/work/openimages/dataset/labels/test.cache... 8 images, 0 backgrounds, 0 corrupt
+[K                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100% ━━━━━━━━━━━━ 1/1 4.1it/s 0.2s
+                   all          8         24      0.694      0.605      0.614      0.411
+                bottle          8         19      0.727      0.211      0.347      0.171
+            coffee_cup          8          5      0.661          1      0.881      0.651
+Speed: 0.5ms pre-process, 19.0ms inference, 2.5ms NMS per image at shape (8, 3, 416, 416)
+Results saved to [1m/home/ubuntu/work/openimages/test_runs/custom60[0m
