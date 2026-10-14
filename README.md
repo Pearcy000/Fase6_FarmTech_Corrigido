@@ -10,20 +10,18 @@ Este README introduz o projeto e orienta o acesso à solução. O passo a passo,
 
 | Integrante | RM |
 |---|---|
-| Camila | 569629 |
-| João | 571052 |
-| Gabriel | 569179 |
-
-Os nomes acima foram informados pelos integrantes; faltam os sobrenomes para atender à exigência de nomes completos.
+| Camila Duarte Ferreira | 569629 |
+| João Luiz Bonim | 571052 |
+| Gabriel Fileto Di Capua da Silva | 569179 |
 - **Repositório público:** [Fase6_FarmTech_Corrigido](https://github.com/Pearcy000/Fase6_FarmTech_Corrigido).
 
-O enunciado solicita o nome do grupo no repositório e o padrão `NomeCompleto_rmXXXXX_pbl_fase6.ipynb` no notebook principal. Esses nomes precisam ser ajustados após a identificação dos integrantes.
+O notebook principal usa o nome completo e o RM de Gabriel no padrão exigido pelo enunciado. O nome do grupo ainda precisa ser informado para adequar o nome do repositório.
 
 ## Acesse a solução
 
 | Documento | Finalidade |
 |---|---|
-| [Notebook principal no Colab](https://colab.research.google.com/github/Pearcy000/Fase6_FarmTech_Corrigido/blob/main/NomeCompleto_rmXXXXX_pbl_fase6.ipynb) · [Ver no GitHub](NomeCompleto_rmXXXXX_pbl_fase6.ipynb) | Preparação do ambiente, conexão com o Drive, treinamento, validação, teste e comparação das abordagens. **As células de código ainda precisam ser executadas e salvas.** |
+| [Notebook principal no Colab](https://colab.research.google.com/github/Pearcy000/Fase6_FarmTech_Corrigido/blob/main/GabrielFiletoDiCapuaDaSilva_rm569179_pbl_fase6.ipynb) · [Ver no GitHub](GabrielFiletoDiCapuaDaSilva_rm569179_pbl_fase6.ipynb) | Preparação do ambiente, conexão com o Drive, treinamento, validação, teste e comparação das abordagens. **As células de código ainda precisam ser executadas e salvas.** |
 | [Resultados verificados](Fase6_FarmTech_Resultados_Verificados.ipynb) · [Abrir no Colab](https://colab.research.google.com/github/Pearcy000/Fase6_FarmTech_Corrigido/blob/main/Fase6_FarmTech_Resultados_Verificados.ipynb) | Análise dos resultados fornecidos, com células executadas e saídas salvas. Não substitui a execução do notebook principal. |
 | [Relatório em PDF](Fase6_FarmTech_Trabalho_Final.pdf) | Discussão dos resultados, conclusões e limitações. |
 
@@ -55,7 +53,7 @@ Imagens e anotações existentes vêm do Open Images; a atribuição está em [o
 
 ## Antes da entrega
 
-- Informar grupo, nomes completos e RMs e adequar os nomes do repositório e do notebook.
+- Informar o nome do grupo e adequar o nome do repositório.
 - Executar o notebook principal, salvar código e saídas, avaliar os resultados e garantir acesso ao dataset e aos rótulos no Drive.
 - Realizar e comprovar a rotulação no Make Sense AI.
 - Inserir o link do vídeo não listado.

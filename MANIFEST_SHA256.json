@@ -9,10 +9,9 @@
   "Fase6_FarmTech_Trabalho_Final.pdf": "d8adbb8de4d5cd4334e7360c3a9f3297d0bb0b40fe2aeca62a75e4a2a0f954a9",
   "GUIA_MAKE_SENSE.md": "54be9ec4cc4d960461d5b3491303fb94247afeba7622480640b0235d35563e60",
   "measure_cnn.py": "b852cebbfa934d2ce3dbc383def5a8799f55b345bbc31a28a31512d72172945a",
-  "NomeCompleto_rmXXXXX_pbl_fase6.ipynb": "d2a3f378924715ba1f736c74ab5471764a435d94a7ad921e0bfc6a240ce9732b",
   "plot_metrics.py": "78b173f7a61e78e2b3a32ad0aba539facf0afe2625f3f975422175676a1f3da8",
   "project_config.py": "c6bba58433fac81bc3d304522695515522ea4a1a7e8c18934e926f4d6fb0317a",
-  "README.md": "73aad58abbd06ba888af73132858749f836f7649e9d08169094443ecd3590491",
+  "README.md": "e23cea0a55f776e38a6a21723211e919455d5e61d81b29178fdb61aaf37950ab",
   "requirements.txt": "73506721e5e6101bf5b036db45a05abe21916b496b6c99a14bf358dd562ee8bf",
   "ROTEIRO_VIDEO.md": "8abbb8882cf3debc91f2c43efbf524de09a82ce9e7ad098b8f0eef763ab73a5f",
   "train_cnn.py": "ffc6e679621f0c9b832b00e5979bb4b7451d465a7784f11bb9a91ba02dcee9a2",
@@ -337,5 +336,6 @@
   "openimages/test_runs/custom60/P_curve.png": "cb2415c0022ee6fac3055cc536995dc7e936de2451095d20d81b1ad5c532ef8d",
   "openimages/test_runs/custom60/R_curve.png": "00f3a1580cec24c70b593da6b6a6483825be14c9698a3f6f8821c31421c04f18",
   "openimages/test_runs/custom60/val_batch0_labels.jpg": "6917625e1af983e533eac5bd22b2e36691c3f7502d03f19af3791f1cece131e8",
-  "openimages/test_runs/custom60/val_batch0_pred.jpg": "1f211f2fef71af080bfeb1156f30d30daa2c1f2fd9bbc6e695316af3f57f19ee"
+  "openimages/test_runs/custom60/val_batch0_pred.jpg": "1f211f2fef71af080bfeb1156f30d30daa2c1f2fd9bbc6e695316af3f57f19ee",
+  "GabrielFiletoDiCapuaDaSilva_rm569179_pbl_fase6.ipynb": "d2a3f378924715ba1f736c74ab5471764a435d94a7ad921e0bfc6a240ce9732b"
 }
