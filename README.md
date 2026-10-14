@@ -1,40 +1,55 @@
-# FarmTech Solutions - Fase 6
+# FarmTech Solutions — Fase 6: O começo da rede neural
 
-Projeto de visão computacional para comparar YOLOv5n ajustado (30 e 60 épocas), YOLOv5n COCO sem ajuste e CNN treinada do zero. Classes: garrafa e xícara de café. O dataset contém 80 imagens públicas, separadas em 64/8/8.
+Projeto acadêmico de visão computacional da FIAP. A solução demonstra a identificação de **garrafas** e **xícaras de café** e compara YOLOv5 personalizado, YOLOv5 pré-treinado sem personalização e uma CNN treinada do zero.
 
-## Integrantes e acesso
+Este README introduz o projeto e orienta o acesso à solução. O passo a passo, o código, as avaliações e as conclusões estão nos notebooks, sem repetir aqui o relatório completo.
 
-- Grupo: PREENCHER
-- Nome completo e RM de cada integrante: PREENCHER
-- Repositório público: PREENCHER URL REAL
-- Colab compartilhado com acesso ao dataset: PREENCHER URL REAL
-- Vídeo YouTube não listado (até 5 minutos): PREENCHER URL REAL
+## Identificação
 
-## Documentação principal
+- **Grupo e integrantes (nome completo e RM):** aguardando identificação.
+- **Repositório público:** [Fase6_FarmTech_Corrigido](https://github.com/Pearcy000/Fase6_FarmTech_Corrigido).
 
-- [Notebook completo para Colab](NomeCompleto_rmXXXXX_pbl_fase6.ipynb): passo a passo de treinamento, validação e teste. Renomear com nome completo/RM, executar e salvar saídas antes da entrega.
-- [Resultados originais verificados](Fase6_FarmTech_Resultados_Verificados.ipynb): análise executada dos resultados fornecidos e métricas corrigidas.
-- [Relatório](Fase6_FarmTech_Trabalho_Final.pdf): resultados, discussão e limitações.
-- [Pendências de entrega](ANTES_DE_ENTREGAR.md).
-- [Guia Make Sense AI](GUIA_MAKE_SENSE.md).
-- [Roteiro do vídeo](ROTEIRO_VIDEO.md).
+O enunciado solicita o nome do grupo no repositório e o padrão `NomeCompleto_rmXXXXX_pbl_fase6.ipynb` no notebook principal. Esses nomes precisam ser ajustados após a identificação dos integrantes.
 
-## Como executar
+## Acesse a solução
 
-1. Enviar `Fase6_FarmTech_Corrigido.zip` para `Meu Drive/FarmTech_Fase6/`.
-2. Abrir o notebook completo no Colab; conferir o caminho `ZIP_DRIVE`.
-3. Executar as células em ordem. A instalação deve preceder imports de NumPy/Pandas/Pillow; reiniciar a sessão se houver imports anteriores incompatíveis.
-4. Os resultados novos ficam em `execucoes_novas/` e são copiados para o Drive. Salvar também o notebook com suas saídas.
-5. Atualizar a discussão usando os resultados da execução que será entregue.
+| Documento | Finalidade |
+|---|---|
+| [Notebook principal no Colab](https://colab.research.google.com/github/Pearcy000/Fase6_FarmTech_Corrigido/blob/main/NomeCompleto_rmXXXXX_pbl_fase6.ipynb) · [Ver no GitHub](NomeCompleto_rmXXXXX_pbl_fase6.ipynb) | Preparação do ambiente, conexão com o Drive, treinamento, validação, teste e comparação das abordagens. **As células de código ainda precisam ser executadas e salvas.** |
+| [Resultados verificados](Fase6_FarmTech_Resultados_Verificados.ipynb) · [Abrir no Colab](https://colab.research.google.com/github/Pearcy000/Fase6_FarmTech_Corrigido/blob/main/Fase6_FarmTech_Resultados_Verificados.ipynb) | Análise dos resultados fornecidos, com células executadas e saídas salvas. Não substitui a execução do notebook principal. |
+| [Relatório em PDF](Fase6_FarmTech_Trabalho_Final.pdf) | Discussão dos resultados, conclusões e limitações. |
+
+Para reproduzir a solução, abra o notebook principal e siga suas células Markdown. Ele orienta a disponibilização dos arquivos no Google Drive e a configuração dos caminhos do dataset. O acesso aos dados no Drive ainda precisa ser garantido para a correção.
+
+## Entregas obrigatórias
+
+**Entrega 1 — YOLO personalizado:** 80 imagens, com 40 por classe e divisão de 32/4/4 por classe para treino, validação e teste. O projeto inclui experimentos de 30 e 60 épocas, métricas e imagens de teste processadas.
+
+**Entrega 2 — comparação:** YOLO personalizado, YOLO pré-treinado COCO e CNN treinada do zero, considerando facilidade de integração, qualidade das previsões, tempo de treinamento e tempo de inferência. A análise completa está nos notebooks e no relatório. Métricas de classificação da CNN e de detecção do YOLO exigem interpretação distinta.
+
+As opções **Ir Além** são facultativas e não foram implementadas.
+
+## Vídeo demonstrativo
+
+**Link do YouTube: ainda não informado.**
+
+É exigido um vídeo de **até 5 minutos**, publicado como **não listado**, demonstrando o funcionamento da solução. Insira o link nesta seção antes da entrega. Consulte o [roteiro de apoio](ROTEIRO_VIDEO.md).
 
 ## Organização
 
-`openimages/dataset`: imagens e rótulos; `openimages/runs`: pesos e curvas originais; `openimages/logs`: logs originais; `openimages/cnn`: modelo/histórico CNN; `openimages/figures`: gráficos e testes; `evidencias_originais`: arquivos anteriores às correções; scripts Python: implementação; `project_config.py`: caminhos comuns.
+- `openimages/dataset/`: imagens e rótulos em treino, validação e teste.
+- `openimages/runs/`, `openimages/test_runs/` e `openimages/cnn/`: modelos, métricas e evidências.
+- `openimages/figures/`: gráficos e exemplos de detecção.
+- Scripts Python e notebooks: implementação e reprodução.
+- `evidencias_originais/`: resultados anteriores à revisão.
 
-## Estado e procedência
+Imagens e anotações existentes vêm do Open Images; a atribuição está em [openimages/attribution.csv](openimages/attribution.csv). **O material atual não comprova a rotulação no Make Sense AI exigida pelo enunciado.** Essa etapa precisa ser realizada e documentada; consulte o [guia de rotulação](GUIA_MAKE_SENSE.md).
 
-Dados e caixas: Open Images; atribuição individual em `openimages/attribution.csv`. As anotações atuais não comprovam a etapa Make Sense AI. Fotos próprias não são obrigatórias no texto fornecido. O pacote não contém vídeo publicado nem repositório criado. As Entregas 1 e 2 são o escopo; Ir Além é opcional e não foi implementado.
+## Antes da entrega
 
-O F1 macro foi corrigido; E60 melhorou E30, mas não superou COCO em mAP50/F1 macro no teste original. Não se deve comparar acurácia da CNN diretamente com mAP dos detectores.
+- Informar grupo, nomes completos e RMs e adequar os nomes do repositório e do notebook.
+- Executar o notebook principal, salvar código e saídas, avaliar os resultados e garantir acesso ao dataset e aos rótulos no Drive.
+- Realizar e comprovar a rotulação no Make Sense AI.
+- Inserir o link do vídeo não listado.
 
-Código YOLO externo: [Ultralytics YOLOv5 v7.0](https://github.com/ultralytics/yolov5/tree/v7.0). Compatibilidade de checkpoints: [documentação PyTorch](https://docs.pytorch.org/docs/2.6/notes/serialization.html).
+Veja a [lista completa de conferência](ANTES_DE_ENTREGAR.md). Após a submissão no portal da FIAP, não faça novos commits: o enunciado considera alterações posteriores à data de entrega como entrega fora do prazo.
